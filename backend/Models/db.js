@@ -5,5 +5,5 @@ mongoose.connect(mongo_url)
 .then (() => {
     console.log('Connected to MongoDB');
 }).catch ((err) => {
-    console.log('Connected to MongoDB');
+    console.log('Connection Error');
 })
